@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penta Yazılım Açılır Menü Örneği</title>
+    <style>
+        body{
+            background: #ececec;
+        }
+        .dropdown-menu{
+            
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-menu  li{
+            list-style: none;
+        }
+        .dropdown-content {
+            min-width: 160px;
+            display: none;
+            position: absolute;
+            padding: 12px 16px;
+            z-index: 1;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+            }
+
+            .dropdown-menu:hover .dropdown-content {
+            display: block;
+            
+            }
+    </style>
+</head>
+<body>
+    <ul class="dropdown-menu">
+        <li>Kurumsal</li>
+            <ul class="dropdown-content">
+                <li>Hakkımızda</li>
+                <li>Tarihçe</li>
+            </ul>
+    </ul>
+
+</body>
+</html>
